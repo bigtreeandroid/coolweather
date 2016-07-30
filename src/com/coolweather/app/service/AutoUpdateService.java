@@ -16,7 +16,7 @@ import com.coolweather.app.util.Utility;
 
 public class AutoUpdateService extends Service
 {
-	@Override
+ 	@Override
 	public IBinder onBind(Intent intent)
 	{
 		return null;
@@ -64,7 +64,4 @@ public class AutoUpdateService extends Service
 			}
 		});
 	}
-	
-	
-	
 }
